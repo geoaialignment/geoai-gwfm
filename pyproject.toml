@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geoai-gwfm"
+version = "1.0.0"
+description = "GeoAI-GWFM-KR: groundwater-level forecasting with Chronos-2 and a Korean groundwater LoRA adapter, with a forecasting agent (MCP server)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "GeoAI Alignment, Inc." }]
+dependencies = [
+  "chronos-forecasting==2.3.2",
+  "peft>=0.20",
+  "torch>=2.4",
+  "pandas>=2.0",
+  "numpy",
+  "matplotlib",
+  "openpyxl",
+]
+
+[project.optional-dependencies]
+agent = ["mcp>=2.3,<3"]
+bench = ["pyarrow", "scipy"]
+
+[project.scripts]
+gwfm = "gwfm.cli:main"
+gwfm-mcp = "gwfm.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

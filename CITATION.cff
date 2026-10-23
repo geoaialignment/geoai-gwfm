@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use GeoAI-GWFM-KR or its forecasts, please cite it as below."
+title: "GeoAI-GWFM-KR v1.0: groundwater-level forecasting for Korean monitoring wells, adapted from Chronos-2"
+type: software
+authors:
+  - family-names: Park
+    given-names: Eungyu
+    orcid: "https://orcid.org/0000-0002-2293-4686"
+    affiliation: "GeoAI Alignment, Inc."
+  - family-names: Park
+    given-names: Jangwon
+    affiliation: "GeoAI Alignment, Inc."
+  - family-names: Kim
+    given-names: Taeyu
+    affiliation: "GeoAI Alignment, Inc."
+version: "1.0.0"
+date-released: "2026-10-31"
+license: PolyForm-Noncommercial-1.0.0
+url: "https://geoaialign.ai/models/gwfm-kr/"
+doi: "10.5281/zenodo.23584923"
+repository-code: "https://github.com/geoaialignment/geoai-gwfm"
+references:
+  - type: article
+    title: "Chronos-2: From univariate to universal forecasting"
+    authors:
+      - family-names: Ansari
+        given-names: Abdul Fatir
+      - name: "et al."
+    year: 2025
+    identifiers:
+      - type: other
+        value: "arXiv:2510.15821"
