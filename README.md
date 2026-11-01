@@ -40,7 +40,8 @@ same input variables (past levels, past and forecast-day rainfall) and training 
 GeoAI-GWFM-KR was more accurate than the per-well LSTM at 34, 39 and 40 of 46 wells at 7, 30
 and 90 days. Chronos-2 alone, not trained on the groundwater records of this benchmark, showed no significant difference
 from the per-well LSTM at 30 and 90 days (p = 0.084 and p = 0.49) and was less accurate at 7 days. Details: technical
-notes at [geoaialign.ai/models/gwfm-kr](https://geoaialign.ai/models/gwfm-kr/) and [Zenodo](https://doi.org/10.5281/zenodo.23584923).
+notes at [geoaialign.ai/models/gwfm-kr](https://geoaialign.ai/models/gwfm-kr/) and [Zenodo](https://doi.org/10.5281/zenodo.23584923); the English
+note is published as a preprint in the [ESS Open Archive](https://doi.org/10.22541/essoar.15011386/v1).
 
 ## Install
 
@@ -131,3 +132,7 @@ The well list with test/training roles is in `bench/wells.csv`.
 Please cite GeoAI-GWFM-KR when you use it or its forecasts in reports or publications (see [CITATION.cff](CITATION.cff)):
 
 > Park, E., Park, J., & Kim, T. (2026). GeoAI-GWFM-KR v1.0: groundwater-level forecasting for Korean monitoring wells, adapted from Chronos-2. GeoAI Alignment, Inc. https://doi.org/10.5281/zenodo.23584923
+
+The technical note (preprint):
+
+> Park, E., Park, J., & Kim, T. (2026). Forecasting groundwater levels at unseen wells without per-well training: GeoAI-GWFM-KR, a time-series foundation model adapted to the Korean monitoring network. ESS Open Archive. https://doi.org/10.22541/essoar.15011386/v1

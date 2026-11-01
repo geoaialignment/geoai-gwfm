@@ -21,6 +21,18 @@ doi: "10.5281/zenodo.23584923"
 repository-code: "https://github.com/geoaialignment/geoai-gwfm"
 references:
   - type: article
+    title: "Forecasting groundwater levels at unseen wells without per-well training: GeoAI-GWFM-KR, a time-series foundation model adapted to the Korean monitoring network"
+    authors:
+      - family-names: Park
+        given-names: Eungyu
+      - family-names: Park
+        given-names: Jangwon
+      - family-names: Kim
+        given-names: Taeyu
+    year: 2026
+    journal: "ESS Open Archive"
+    doi: "10.22541/essoar.15011386/v1"
+  - type: article
     title: "Chronos-2: From univariate to universal forecasting"
     authors:
       - family-names: Ansari
